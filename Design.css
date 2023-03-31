@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Gistesy;
+    src: url(Gistesy.ttf);
+  }
+  body{
+    font-family: Alice-regular;
+    background-color: #FFF9F3;
+    margin: 0;
+  }
+  header{
+    height: 75px;
+    width: 100%;
+    background-color: #D0B991;
+    position: relative;
+    margin: 0;
+  }
+  .logo img{
+    width:40%;
+    margin: 0;
+  }
+  header span {
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    margin: 0;
+  } 
+  img {
+    width: "100%";
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  .kids{
+    justify-content: center;
+  }
+  h1{
+
+    text-align: center;
+    color: #5D7251;
+    font-size: 500%;
+    font-weight: 125;
+    position: relative;
+  }
+  main nav ul{
+    display: flex;
+    color: #5D7251;
+    font-size: 200%;
+    list-style: none;
+    justify-content: space-between;
+  }
+  footer{
+    background-color: #D0B991;
+    height: 50px;
+    width: 100%;
+  }
+  .txt{
+    position: relative;
+    bottom: 500px;
+  }
+  .esp{
+    justify-content: space-around;
+  }
+  .tamhoja{
+    width: 500px;
+  }
+  .go-top{
+    position: fixed;
+    left: 95%;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+  }
+  
+  .botton{
+    width: 0rem;
+    height: 0rem;
+    background: #5D7251;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .botton i{
+    position: absolute;
+    font-size: 1,7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #D0B991;
+    transition: .2s;
+  }
+  
+  
+  .show{
+    z-index: 10;
+  }
+  
+  .show botton{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+  }
+  
+  .show i{
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  @keyframes popup{
+    0%{
+      width: 0rem;
+      height: 0rem;
+    }
+    50%{
+      width: 8rem;
+      height: 8rem;
+    }
+    100%{
+      width: 6.6rem;
+      height: 6.6rem;
+    }
+  }
+  .Ropa{
+    display: flex;
+    justify-content: space-around;
+    color: #5D7251;
+    position:relative;
+    padding-top: 5%;
+  }
+  .title{
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+    padding-top: 20%;
+  }
+  .descrption{
+    text-align: left;
+    position: relative;
+    font-size: 150%;
+    top:12%; 
+  }
+  .tamLet{
+    text-align: left;
+    font-size: 150%;
+    font-weight: normal;
+  }
+  .Comprar {
+    font-family: Alice-regular;
+    background-color: #D0B991;
+    padding: 22px 100px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 27px;
+    border-radius: 10px;
+    border: 2px #D0B991 solid;
+  }
+  .boton{
+    text-align: center;
+    position:relative;
+    top:30%;
+  }
+  .tamCosto{
+    text-align: left;
+    font-size: 200%;
+    font-weight: normal;
+    position:relative;
+    top:20%;
+  }
+  .hojaR img{
+    width:8%;
+    position: relative;
+    margin-left: 92%;
+    margin-top: -8%;
+  }
+  .Kids1{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    padding-top: 3%;
+  }
+  .hojak img{
+    width:8%;
+    position: relative;
+    margin-left: 92%;
+    margin-top: -10%;
+  }
+  .Kids1 p{
+    font-size: 270%;
+    color: #f5f5f5;
+    position:absolute; 
+    left: 30%;
+    top: 10%; 
+  }
+  .Kids1 p1{
+    font-size: 270%;
+    color: #f5f5f5;
+    position:absolute; 
+    left: 56%;
+    top: 82%; 
+  }
+  .Kids2{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    padding-top: 3%;
+  }
+  .Kids2 p{
+    font-size: 270%;
+    color: #f5f5f5;
+    position:absolute; 
+    left: 30%;
+    top: 64%; 
+  }
+  .Kids2 p1{
+    font-size: 270%;
+    color: #f5f5f5;
+    position:absolute; 
+    left: 56%;
+    top: 15%; 
+  }
+  .Return{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+  }
+  .hojaD img{
+    width:40%;
+    position: relative;
+    margin-left: 56%;
+    margin-top: -20%;
+  }
+  .Devolver img{
+    width:12%;
+    position: relative;
+    left: 15%;
+    top: -50%;
+  }
+  .hoja1 img{
+    width: 10%;
+    position:absolute; 
+    left: 0%;
+    top: 80%;
+  }
+  .hoja2 img{
+    width: 10%;
+    position:absolute; 
+    right: 0%;
+    top: 80%;
+  }
+  .title2 a{
+    display: flex;
+    justify-content: center;
+    color: #5D7251;
+    font-size: 300%;
+    font-weight: normal;
+  }
+  .title2{
+    position: relative;
+    top: 80%;
+  }
